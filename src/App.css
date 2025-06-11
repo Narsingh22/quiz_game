@@ -1,0 +1,39 @@
+.myContainer {
+  width: 100vp;
+}
+
+.myContainer h1 {
+  text-align: center;
+  font-size: 5em;
+}
+
+.questions-container {
+  margin-top: 10rem;
+  transition: linear .3;
+}
+
+strong {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.myOptions button {
+  font-size: 22px;
+  border-radius: 14px;
+  background-color: transparent;
+  padding: 8px;
+  border: 1px solid black;
+  box-shadow: 5px -5px 5px black;
+  transition: .1s linear;
+}
+
+.myOptions button:hover {
+  font-size: 24px;
+  font-weight: bold;
+  color: darkolivegreen;
+}
+
+#empty {
+  font-size: 24px;
+  font-weight: 600;
+}
